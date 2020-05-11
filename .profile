@@ -8,6 +8,12 @@
 # for ssh logins, install and configure the libpam-umask package.
 #umask 022
 
+# import all other dotfiles
+for file in ~/.{exports,aliases}; do
+	[ -r "$file" ] && source "$file"
+done
+unset file
+
 # if running bash
 if [ -n "$BASH_VERSION" ]; then
     # include .bashrc if it exists
