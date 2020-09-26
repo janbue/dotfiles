@@ -116,5 +116,12 @@ if ! shopt -oq posix; then
   fi
 fi
 
+# import all other dotfiles
+for file in ~/.{exports,aliases}; do
+  [ -r "$file" ] && source "$file"
+done
+unset file
+
+
 # set PS1
 export PS1="[\A] \[\033[1;32m\]\u@\h:\[\033[0;34m\]\w\[\033[0;37m\]\$ "
