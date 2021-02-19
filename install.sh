@@ -1,4 +1,4 @@
-#!/bin/bash
+!/bin/bash
 
 # Installer for the dotfiles
 
@@ -17,5 +17,8 @@ echo "done"
 echo -n "installing vimrc: "
 ln -sf ~/dotfiles/.vimrc ~/.vimrc
 echo "done"
-
+echo -n "intalling todo config"
+mkdir ~/.todo
+ln -sf ~/dotfiles/config ~/.todo/config
+echo "done"
 echo "All dotfiles are installed now"
