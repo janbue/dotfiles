@@ -1,4 +1,4 @@
-!/bin/bash
+#!/bin/bash
 
 # Installer for the dotfiles
 
