@@ -15,3 +15,6 @@ set number
 
 " show line numbers
 set number
+
+" allow mouse
+set mouse=a

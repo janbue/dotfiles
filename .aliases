@@ -18,3 +18,12 @@ alias tdo='todo.sh do'
 
 # shortcut for deleting task
 alias tdel='todo.sh del'
+
+# shortcuts vpn home
+alias svpn='sudo systemctl start wg-quick@wg_home'
+alias rvpn='sudo systemctl restart wg-quick@wg_home'
+alias evpn='sudo systemctl stop wg-quick@wg_home'
+alias cvpn='sudo systemctl status wg-quick@wg_home'
+
+# shortcut for ls stuff
+alias li='ls -lisah'
