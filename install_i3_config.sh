@@ -1,4 +1,4 @@
-!/bin/bash
+#!/bin/bash
 
 # installer for the i3 config files using i3_blocks
 
