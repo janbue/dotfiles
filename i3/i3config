@@ -218,3 +218,4 @@ bindsym $mod+shift+x exec i3lock-fancy
 
 #exec noson-app
 exec spotify
+exec nextcloud
