@@ -228,3 +228,6 @@ bindsym $alt+control+l exec i3lock -c 000000
 #exec noson-app
 exec spotify
 exec nextcloud
+
+
+exec --no-startup-id feh --bg-fill --randomize ~/Pictures/Wallpapers/*

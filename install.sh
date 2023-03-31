@@ -17,8 +17,11 @@ echo "done"
 echo -n "installing vimrc: "
 ln -sf ~/dotfiles/.vimrc ~/.vimrc
 echo "done"
-echo -n "intalling todo config"
-mkdir ~/.todo
+echo -n "installing .tmux: "
+ln -sf ~/dotfiles/.tmux.conf ~/.tmux.conf
+echo "done"
+echo -n "installing todo config: "
+mkdir -p ~/.todo
 ln -sf ~/dotfiles/config ~/.todo/config
 echo "done"
 echo "All dotfiles are installed now"
