@@ -8,6 +8,12 @@ sudo pacman -S i3blocks
 echo "installing i3lock"
 sudo pacman -S i3lock
 
+echo "installing awesome font"
+sudo pacman -S awesome-terminal-fonts
+
+echo "installing arandr"
+sudo pacman -S arandr
+
 echo -n "installing i3 config: "
 mkdir -p ~/.config/i3
 ln -sf ~/dotfiles/i3/i3config ~/.config/i3/config

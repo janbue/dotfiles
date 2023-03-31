@@ -23,9 +23,9 @@ from enum import Enum
 from pathlib import Path
 
 PSEUDO_FS_PATH = "/sys/class/power_supply/"
-CURRENT_CHARGE_FILENAME = "energy_now"
-MAX_CHARGE_FILENAME = "energy_full"
-POWER_DRAW_FILENAME = "power_now"
+CURRENT_CHARGE_FILENAME = "charge_now"
+MAX_CHARGE_FILENAME = "charge_full"
+POWER_DRAW_FILENAME = "current_now"
 TLP_THRESHOLD_PERCENTAGE = 1.0
 PERCENTAGE_FORMAT = ".2%"
 

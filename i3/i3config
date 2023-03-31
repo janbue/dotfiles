@@ -9,6 +9,8 @@
 #
 # Please see https://i3wm.org/docs/userguide.html for a complete reference!
 
+set $alt Mod1
+set $super Mod4
 set $mod Mod4
 
 # Font for window titles. Will also be used by the bar unless a different font
@@ -76,6 +78,12 @@ bindsym $mod+Shift+Left move left
 bindsym $mod+Shift+Down move down
 bindsym $mod+Shift+Up move up
 bindsym $mod+Shift+Right move right
+
+# move to different screen
+bindsym $mod+control+Left move workspace to output left
+bindsym $mod+control+Down move workspace to output down
+bindsym $mod+control+Up move workspace to output up
+bindsym $mod+control+Right move workspace to output right
 
 # split in horizontal orientation
 bindsym $mod+h split h
@@ -214,7 +222,8 @@ bar {
 exec "setxkbmap -layout ch"
 
 # lock keybinding
-bindsym $mod+shift+x exec i3lock-fancy
+bindsym $alt+control+l exec i3lock -c 000000
+#bindsym mod1+control+l exec i3lock-fancy
 
 #exec noson-app
 exec spotify

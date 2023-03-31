@@ -25,7 +25,7 @@
 # The top properties below are applied to every block, but can be overridden.
 # Each block command defaults to the script name to avoid boilerplate.
 # Change $SCRIPT_DIR to the location of your scripts!
-command=~/.config/i3blocks/$BLOCK_NAME
+command=~/dotfiles/i3/blocks/$BLOCK_NAME
 separator_block_width=15
 markup=none
 
@@ -40,7 +40,7 @@ label=
 #label=VOL 
 interval=2
 signal=10
-command=~/.config/i3blocks/volume/volume
+command=~/dotfiles/i3/blocks/volume
 #STEP=5%
 separator=true
 
@@ -60,20 +60,20 @@ INTERFACE=wlp1s0
 label= 
 interval=10
 separator=true
-command=~/.config/i3blocks/wifi/wifi
+command=~/dotfiles/i3/blocks/wifi
 
 [ipaddress]
 label=ip:
 interval=30
 separator=true
-command=/usr/bin/ip -f inet addr show wlp1s0 | /usr/bin/awk '/inet / {print $2}'
+command=/usr/bin/ip -f inet addr show wlan0 | /usr/bin/awk '/inet / {print $2}'
 
 # CPU usage
 #
 # The script may be called with -w and -c switches to specify thresholds,
 # see the script for details.
 [cpu_usage]
-command=~/.config/i3blocks/cpu_usage/cpu_usage
+command=~/dotfiles/i3/blocks/cpu_usage
 label=CPU 
 interval=10
 min_width=CPU 100.00%
@@ -84,7 +84,7 @@ separator=true
 #
 # The battery instance defaults to 0.
 [battery]
-command=~/.config/i3blocks/battery-poly/battery-poly
+command=~/dotfiles/i3/blocks/battery_poly
 #label=BAT 
 label= 
 interval=5
