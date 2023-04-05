@@ -1,5 +1,5 @@
 # Make terminal nice
-export PS1="[\A] \[\033[1;32m\]\u@\h:\[\033[0;34m\]\w\[\033[0;37m\]\n\$ "
+export PS1="[\A] \[\033[1;32m\]\u@\h:\[\033[0;36m\]\w\[\033[0;37m\]\n\$ "
  
 # Make vim default editor
 export EDITOR='vim'

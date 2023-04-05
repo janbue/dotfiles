@@ -122,10 +122,6 @@ for file in ~/.{exports,aliases}; do
 done
 unset file
 
-
-# set PS1
-export PS1="[\A] \[\033[1;32m\]\u@\h:\[\033[0;36m\]\w\[\033[0;37m\]\$ "
-
 # source fzf files
 source /usr/share/fzf/key-bindings.bash
 source /usr/share/fzf/completion.bash
