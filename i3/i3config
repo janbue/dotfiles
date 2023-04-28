@@ -226,8 +226,10 @@ bindsym $alt+control+l exec i3lock -c 000000
 #bindsym mod1+control+l exec i3lock-fancy
 
 #exec noson-app
-exec spotify
+#exec spotify
 exec nextcloud
 
-
 exec --no-startup-id feh --bg-fill --randomize ~/Pictures/Wallpapers/*
+
+# keybinding to reload background
+bindsym $alt+control+b exec --no-startup-id feh --bg-fill --randomize ~/Pictures/Wallpapers/*
