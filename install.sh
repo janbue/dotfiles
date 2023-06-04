@@ -22,6 +22,6 @@ ln -sf ~/dotfiles/.tmux.conf ~/.tmux.conf
 echo "done"
 echo -n "installing todo config: "
 mkdir -p ~/.todo
-ln -sf ~/dotfiles/config ~/.todo/config
+ln -sf ~/dotfiles/todo_config ~/.todo/config
 echo "done"
 echo "All dotfiles are installed now"

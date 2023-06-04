@@ -5,6 +5,8 @@ alias py='python3'
 alias cls='clear'
 # shortcut for ls stuff
 alias li='ls -lisah'
+alias la='ls -A'
+alias ll='ls -la'
 
 ### todo.sh aliases
 # shorten todo.sh
