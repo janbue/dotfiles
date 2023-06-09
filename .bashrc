@@ -125,3 +125,6 @@ unset file
 # source fzf files
 source /usr/share/fzf/key-bindings.bash
 source /usr/share/fzf/completion.bash
+
+# source git autocomplete
+source /usr/share/git/completion/git-completion.bash
