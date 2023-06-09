@@ -116,12 +116,3 @@ if ! shopt -oq posix; then
   fi
 fi
 
-# import all other dotfiles
-for file in ~/.{exports,aliases}; do
-  [ -r "$file" ] && source "$file"
-done
-unset file
-
-# source fzf files
-source /usr/share/fzf/key-bindings.bash
-source /usr/share/fzf/completion.bash
