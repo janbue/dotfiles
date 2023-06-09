@@ -1,0 +1,15 @@
+###################################################
+# todo.sh aliases
+###################################################
+
+# shorten todo.sh
+alias todo='todo.sh'
+# shortcut for adding to todo list
+alias tadd='todo.sh add'
+# shortcut for listing todo list
+alias tls='todo.sh ls'
+# shortcut for doing task
+alias tdo='todo.sh do'
+# shortcut for deleting task
+alias tdel='todo.sh del'
+

@@ -1,0 +1,15 @@
+###################################################
+# QOL
+###################################################
+
+# Python to py
+alias py='python3'
+
+# short clear as cls
+alias cls='clear'
+
+# shortcut for ls stuff
+alias li='ls -lisah'
+alias la='ls -A'
+alias ll='ls -la'
+

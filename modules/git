@@ -1,0 +1,9 @@
+###################################################
+# git
+###################################################
+
+alias gcm='git commit -m'
+alias ga='git add .'
+alias gpull='git pull'
+alias gpush='git push'
+

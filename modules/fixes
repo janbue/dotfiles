@@ -1,0 +1,10 @@
+###################################################
+# Fixes
+###################################################
+# This module is intended to fix stuff, that should
+# work according to the official documentation but
+# has a different behaviour.
+###################################################
+
+# overload tmux to use config file
+alias tmux='tmux -f ~/.tmux.conf'
