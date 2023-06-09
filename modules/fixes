@@ -8,3 +8,4 @@
 
 # overload tmux to use config file
 alias tmux='tmux -f ~/.tmux.conf'
+
