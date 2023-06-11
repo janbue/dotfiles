@@ -229,6 +229,10 @@ bindsym $alt+control+l exec i3lock -c 000000
 #exec spotify
 exec nextcloud
 
+exec ~/.screenlayout/home.sh
+
+exec --no-startup-id picom -b
+
 exec --no-startup-id feh --bg-fill --randomize ~/Pictures/Wallpapers/*
 
 # keybinding to reload background
