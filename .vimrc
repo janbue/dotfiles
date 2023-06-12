@@ -7,6 +7,12 @@ filetype on
 " turn on syntax detection
 syntax on
 
+" enable auto indentation
+filetype indent on
+set ai
+set si
+set shiftwidth=3
+
 " show line numbers
 set number
 
