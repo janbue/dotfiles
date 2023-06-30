@@ -1,0 +1,2 @@
+alias gop='gopass list --flat | fzf --border=rounded +m --height=100% | xargs -I@ gopass show -C -n "@"'
+
