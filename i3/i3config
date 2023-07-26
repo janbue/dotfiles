@@ -219,7 +219,8 @@ bar {
 }
 
 # Change keyboardlayout to swiss german
-exec "setxkbmap -layout ch"
+exec "setxkbmap -layout us -variant intl"
+#exec "setxkbmap -layout ch"
 
 # lock keybinding
 bindsym $alt+control+l exec i3lock -c 000000
