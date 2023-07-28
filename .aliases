@@ -34,3 +34,6 @@ alias gcm='git commit -m'
 alias ga='git add .'
 alias gpull='git pull'
 alias gpush='git push'
+
+# gopass
+alias gop='gopass list --flat | fzf --border=rounded +m --height=100% | xargs -I@ gopass show -C -n "@"'

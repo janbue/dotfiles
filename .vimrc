@@ -11,7 +11,11 @@ syntax on
 filetype indent on
 set ai
 set si
+<<<<<<< Updated upstream
 set shiftwidth=3
+=======
+set shiftwidth=2
+>>>>>>> Stashed changes
 
 " show line numbers
 set number
