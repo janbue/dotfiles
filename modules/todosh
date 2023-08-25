@@ -1,6 +1,10 @@
 ###################################################
 # todo.sh aliases
 ###################################################
+# This module adds some aliases for todo.sh to make
+# it easier to use and shorten the most used 
+# commands
+###################################################
 
 # shorten todo.sh
 alias todo='todo.sh'

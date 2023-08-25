@@ -1,2 +1,8 @@
+###################################################
+# Aliases for gopass
+###################################################
+# this module sets some aliases to make gopass more
+# usable.
+###################################################
 alias gop='gopass list --flat | fzf --border=rounded +m --height=100% | xargs -I@ gopass show -C -n "@"'
 

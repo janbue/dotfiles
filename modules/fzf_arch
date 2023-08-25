@@ -1,3 +1,10 @@
+###################################################
+# fzf for arch based linux distros
+###################################################
+# This module loads the fzf keybindings and auto-
+# completion files for arch linux
+###################################################
+
 source /usr/share/fzf/key-bindings.bash
 source /usr/share/fzf/completion.bash
 

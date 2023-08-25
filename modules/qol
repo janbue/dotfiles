@@ -1,6 +1,9 @@
 ###################################################
 # QOL
 ###################################################
+# This module adds some Quality of Live aliases
+# to your bashrc file
+###################################################
 
 # Python to py
 alias py='python3'

@@ -1,5 +1,8 @@
 ###################################################
-# git
+# git bash aliases
+###################################################
+# This module sets some basic aliases for git 
+# commands
 ###################################################
 
 alias gcm='git commit -m'

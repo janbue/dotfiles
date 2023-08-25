@@ -1,2 +1,9 @@
+###################################################
+# vim as default editor
+###################################################
+# This module sets vim as the default editor for 
+# most terminal applications
+###################################################
+
 export EDITOR='vim'
 

@@ -1,1 +1,8 @@
+###################################################
+# Bash autocompletion for git
+###################################################
+# This module loads the autocompletion files for
+# the git command on bash
+###################################################
+
 source /usr/share/git/completion/git-completion.bash

@@ -1,2 +1,12 @@
+###################################################
+# PS1 with newline
+###################################################
+# This module sets PS1 to show the current time and
+# inserts a new line between the path and where the
+# command will be entered. This helps with 
+# readability when using long paths, long commands
+# or small terminal sizes.
+###################################################
+
 export PS1="[\A] \[\033[1;32m\]\u@\h:\[\033[0;36m\]\w\[\033[0;37m\]\n\$ "
 
